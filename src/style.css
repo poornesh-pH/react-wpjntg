@@ -17,3 +17,8 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.sideNavItems {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}

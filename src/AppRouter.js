@@ -6,6 +6,9 @@ import TopNav from './Components/TopNav';
 import SideNavItem_1 from './Components/SideNavItems/SideNavItem_1';
 import SideNavItem_2 from './Components/SideNavItems/SideNavItem_2';
 import SideNavItem_3 from './Components/SideNavItems/SideNavItem_3';
+import TopNavItem_1 from './Components/TopNavItems/TopNavItem_1';
+import TopNavItem_2 from './Components/TopNavItems/TopNavItem_2';
+import TopNavItem_3 from './Components/TopNavItems/TopNavItem_3';
 const AppRouter = () => {
   return (
     <div>
@@ -20,9 +23,9 @@ const AppRouter = () => {
           <Route exact path="/SN1" component={SideNavItem_1} />
           <Route exact path="/SN2" component={SideNavItem_2} />
           <Route exact path="/SN3" component={SideNavItem_3} />
-          {/* <Route exact path="/TN1" component={TopNavItem_1} />
+          <Route exact path="/TN1" component={TopNavItem_1} />
           <Route exact path="/TN2" component={TopNavItem_2} />
-          <Route exact path="/TN3" component={TopNavItem_3} /> */}
+          <Route exact path="/TN3" component={TopNavItem_3} />
         </Switch>
       </BrowserRouter>
     </div>

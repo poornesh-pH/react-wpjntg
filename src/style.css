@@ -10,10 +10,7 @@ p {
   align-items: flex-end;
   list-style-type: none;
 }
-.topNavItems li {
-  padding: 10px;
-}
-.dashboard {
+.abc {
   display: flex;
   justify-content: space-between;
 }

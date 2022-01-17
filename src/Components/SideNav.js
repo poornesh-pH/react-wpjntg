@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const SideNav = () => {
   return (
-    <div >
+    <div>
       <ul className="sideNavItems">
         <Link to="/SN1">SN item 1</Link>
         <Link to="/SN2">SN item 2</Link>

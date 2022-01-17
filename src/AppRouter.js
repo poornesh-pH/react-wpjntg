@@ -6,10 +6,9 @@ import App from './App';
 const AppRouter = () => {
   return (
     <div>
-      <div>AppRouter</div>
       <BrowserRouter>
         <Switch>
-          <Route  path="/" component={Dashboard}/>
+          <Route exact path="/" component={Dashboard} />
         </Switch>
       </BrowserRouter>
     </div>

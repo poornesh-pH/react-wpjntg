@@ -1,3 +1,19 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+
+.topNavItems {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+}
+.topNavItems li {
+  padding: 10px;
+}
+.dashboard {
+  display: flex;
+  justify-content: space-between;
 }
